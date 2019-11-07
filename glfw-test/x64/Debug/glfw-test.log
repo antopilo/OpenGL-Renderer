@@ -1,0 +1,32 @@
+﻿  Application.cpp
+Application.obj : error LNK2019: symbole externe non résolu glewInit référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwInit référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwTerminate référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwCreateWindow référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwWindowShouldClose référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwPollEvents référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwGetTime référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwMakeContextCurrent référencé dans la fonction main
+Application.obj : error LNK2019: symbole externe non résolu glfwSwapBuffers référencé dans la fonction main
+Application.obj : error LNK2001: symbole externe non résolu __glewBindBuffer
+Application.obj : error LNK2001: symbole externe non résolu __glewBufferData
+Application.obj : error LNK2001: symbole externe non résolu __glewGenBuffers
+Application.obj : error LNK2001: symbole externe non résolu __glewAttachShader
+Application.obj : error LNK2001: symbole externe non résolu __glewCompileShader
+Application.obj : error LNK2001: symbole externe non résolu __glewCreateProgram
+Application.obj : error LNK2001: symbole externe non résolu __glewCreateShader
+Application.obj : error LNK2001: symbole externe non résolu __glewDeleteProgram
+Application.obj : error LNK2001: symbole externe non résolu __glewDeleteShader
+Application.obj : error LNK2001: symbole externe non résolu __glewEnableVertexAttribArray
+Application.obj : error LNK2001: symbole externe non résolu __glewGetShaderInfoLog
+Application.obj : error LNK2001: symbole externe non résolu __glewGetShaderiv
+Application.obj : error LNK2001: symbole externe non résolu __glewGetUniformLocation
+Application.obj : error LNK2001: symbole externe non résolu __glewLinkProgram
+Application.obj : error LNK2001: symbole externe non résolu __glewShaderSource
+Application.obj : error LNK2001: symbole externe non résolu __glewUniform4f
+Application.obj : error LNK2001: symbole externe non résolu __glewUseProgram
+Application.obj : error LNK2001: symbole externe non résolu __glewValidateProgram
+Application.obj : error LNK2001: symbole externe non résolu __glewVertexAttribPointer
+C:\dev\glfw-test\glfw-test\Dependencies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\dev\glfw-test\glfw-test\Dependencies\GLEW\lib\Release\Win32\glew32.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
+C:\dev\glfw-test\x64\Debug\glfw-test.exe : fatal error LNK1120: 28 externes non résolus
