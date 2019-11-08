@@ -1,10 +1,5 @@
-﻿  Application.cpp
-C:\dev\glfw-test\glfw-test\Application.cpp(2,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-  Renderer.cpp
-  Génération de code en cours...
-C:\dev\glfw-test\glfw-test\Application.cpp(3,10): warning C4067: jetons inattendus après la directive du préprocesseur - saut de ligne attendu
-C:\dev\glfw-test\glfw-test\src\Renderer.cpp(180): warning C4715: 'CreateWindow' : les chemins de contrôle ne retournent pas tous une valeur
-LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'MSVCRT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
-LINK : warning LNK4098: conflit entre la bibliothèque par défaut 'LIBCMT' et les autres bibliothèques ; utilisez /NODEFAULTLIB:library
-glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' n'a pu être trouvé avec 'glew32s.lib(glew.obj)' ou sur 'C:\dev\glfw-test\Debug\vc120.pdb' ; l'objet sera lié sans informations de débogage
-  glfw-test.vcxproj -> C:\dev\glfw-test\Debug\glfw-test.exe
+﻿  Renderer.cpp
+  VertexArray.cpp
+  Generating Code...
+C:\Dev\OpenGL-Renderer\glfw-test\src\Renderer.cpp(156): warning C4715: 'CreateWindow': not all control paths return a value
+  glfw-test.vcxproj -> C:\Dev\OpenGL-Renderer\Debug\glfw-test.exe

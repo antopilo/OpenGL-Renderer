@@ -1,32 +1,43 @@
 ﻿  Application.cpp
-Application.obj : error LNK2019: symbole externe non résolu glewInit référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwInit référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwTerminate référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwCreateWindow référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwWindowShouldClose référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwPollEvents référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwGetTime référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwMakeContextCurrent référencé dans la fonction main
-Application.obj : error LNK2019: symbole externe non résolu glfwSwapBuffers référencé dans la fonction main
-Application.obj : error LNK2001: symbole externe non résolu __glewBindBuffer
-Application.obj : error LNK2001: symbole externe non résolu __glewBufferData
-Application.obj : error LNK2001: symbole externe non résolu __glewGenBuffers
-Application.obj : error LNK2001: symbole externe non résolu __glewAttachShader
-Application.obj : error LNK2001: symbole externe non résolu __glewCompileShader
-Application.obj : error LNK2001: symbole externe non résolu __glewCreateProgram
-Application.obj : error LNK2001: symbole externe non résolu __glewCreateShader
-Application.obj : error LNK2001: symbole externe non résolu __glewDeleteProgram
-Application.obj : error LNK2001: symbole externe non résolu __glewDeleteShader
-Application.obj : error LNK2001: symbole externe non résolu __glewEnableVertexAttribArray
-Application.obj : error LNK2001: symbole externe non résolu __glewGetShaderInfoLog
-Application.obj : error LNK2001: symbole externe non résolu __glewGetShaderiv
-Application.obj : error LNK2001: symbole externe non résolu __glewGetUniformLocation
-Application.obj : error LNK2001: symbole externe non résolu __glewLinkProgram
-Application.obj : error LNK2001: symbole externe non résolu __glewShaderSource
-Application.obj : error LNK2001: symbole externe non résolu __glewUniform4f
-Application.obj : error LNK2001: symbole externe non résolu __glewUseProgram
-Application.obj : error LNK2001: symbole externe non résolu __glewValidateProgram
-Application.obj : error LNK2001: symbole externe non résolu __glewVertexAttribPointer
-C:\dev\glfw-test\glfw-test\Dependencies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
-C:\dev\glfw-test\glfw-test\Dependencies\GLEW\lib\Release\Win32\glew32.lib : warning LNK4272: type d'ordinateur bibliothèque 'x86' en conflit avec le type d'ordinateur cible 'x64'
-C:\dev\glfw-test\x64\Debug\glfw-test.exe : fatal error LNK1120: 28 externes non résolus
+C:\Dev\OpenGL-Renderer\glfw-test\Application.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  IndexBuffer.cpp
+  Renderer.cpp
+  VertexBuffer.cpp
+  Generating Code...
+C:\Dev\OpenGL-Renderer\glfw-test\Application.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Dev\OpenGL-Renderer\glfw-test\src\Renderer.cpp(181): warning C4715: 'CreateWindow': not all control paths return a value
+IndexBuffer.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+VertexBuffer.obj : error LNK2001: unresolved external symbol __glewBindBuffer
+IndexBuffer.obj : error LNK2001: unresolved external symbol __glewBufferData
+VertexBuffer.obj : error LNK2001: unresolved external symbol __glewBufferData
+IndexBuffer.obj : error LNK2001: unresolved external symbol __glewDeleteBuffers
+VertexBuffer.obj : error LNK2001: unresolved external symbol __glewDeleteBuffers
+IndexBuffer.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+VertexBuffer.obj : error LNK2001: unresolved external symbol __glewGenBuffers
+Renderer.obj : error LNK2019: unresolved external symbol glewInit referenced in function "int __cdecl CreateWindow(void)" (?CreateWindow@@YAHXZ)
+Renderer.obj : error LNK2019: unresolved external symbol glfwInit referenced in function "int __cdecl CreateWindow(void)" (?CreateWindow@@YAHXZ)
+Renderer.obj : error LNK2019: unresolved external symbol glfwTerminate referenced in function "int __cdecl Close(void)" (?Close@@YAHXZ)
+Renderer.obj : error LNK2019: unresolved external symbol glfwCreateWindow referenced in function "int __cdecl CreateWindow(void)" (?CreateWindow@@YAHXZ)
+Renderer.obj : error LNK2019: unresolved external symbol glfwWindowShouldClose referenced in function "void __cdecl Run(void)" (?Run@@YAXXZ)
+Renderer.obj : error LNK2019: unresolved external symbol glfwPollEvents referenced in function "void __cdecl EndRender(void)" (?EndRender@@YAXXZ)
+Renderer.obj : error LNK2019: unresolved external symbol glfwMakeContextCurrent referenced in function "int __cdecl CreateWindow(void)" (?CreateWindow@@YAHXZ)
+Renderer.obj : error LNK2019: unresolved external symbol glfwSwapBuffers referenced in function "void __cdecl EndRender(void)" (?EndRender@@YAXXZ)
+Renderer.obj : error LNK2001: unresolved external symbol __glewAttachShader
+Renderer.obj : error LNK2001: unresolved external symbol __glewCompileShader
+Renderer.obj : error LNK2001: unresolved external symbol __glewCreateProgram
+Renderer.obj : error LNK2001: unresolved external symbol __glewCreateShader
+Renderer.obj : error LNK2001: unresolved external symbol __glewDeleteProgram
+Renderer.obj : error LNK2001: unresolved external symbol __glewDeleteShader
+Renderer.obj : error LNK2001: unresolved external symbol __glewEnableVertexAttribArray
+Renderer.obj : error LNK2001: unresolved external symbol __glewGetShaderInfoLog
+Renderer.obj : error LNK2001: unresolved external symbol __glewGetShaderiv
+Renderer.obj : error LNK2001: unresolved external symbol __glewGetUniformLocation
+Renderer.obj : error LNK2001: unresolved external symbol __glewLinkProgram
+Renderer.obj : error LNK2001: unresolved external symbol __glewShaderSource
+Renderer.obj : error LNK2001: unresolved external symbol __glewUniform4f
+Renderer.obj : error LNK2001: unresolved external symbol __glewUseProgram
+Renderer.obj : error LNK2001: unresolved external symbol __glewValidateProgram
+Renderer.obj : error LNK2001: unresolved external symbol __glewVertexAttribPointer
+C:\Dev\OpenGL-Renderer\glfw-test\Dependencies\GLFW\lib-vc2019\glfw3.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Dev\OpenGL-Renderer\glfw-test\Dependencies\GLEW\lib\Release\Win32\glew32.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Dev\OpenGL-Renderer\x64\Debug\glfw-test.exe : fatal error LNK1120: 28 unresolved externals
